@@ -4,11 +4,11 @@ A Password Complexity Checker is a tool or program designed to evaluate the stre
 
 The Password Complexity Checker analyzes the input password against these criteria and provides feedback on its strength. This feedback often comes in the form of qualitative assessments (e.g., weak, moderate, strong, very strong) or quantitative scores. The purpose of this tool is to help users create passwords that are resilient against unauthorized access attempts, such as brute-force attacks or dictionary attacks.
 
-TOOL OBJECTIVE 
+TOOL OBJECTIVE : 
    1 --> Function password_strength(password):
         This function takes a password as input and calculates its strength based on several criteria: length, presence of uppercase and lowercase letters, numbers, and special characters.
         It first calculates the length of the password using len(password).
-        It then checks whether the password contains at least one uppercase letter, lowercase letter, number, and special character using built-in methods like .isupper(), .islower(), .isdigit(), and a regular expression bool(re.match('[\W_]', password)).
+        It then checks whether the password contains at least one uppercase letter, lowercase letter, number, and special character using built-in methods like .isupper(), .islower(), .isdigit(), and a regular expression bool(re. match('[\W_]', password)).
         Based on these criteria, it assigns a score to the password. Each criterion contributes to the score, with uppercase and lowercase letters, numbers, and special characters adding more points.
         It then categorizes the password based on its score into different strength levels: weak, moderate, strong, and very strong.
 
